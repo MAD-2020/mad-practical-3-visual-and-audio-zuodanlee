@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         VideoView rabbidShow = findViewById(R.id.rabbidVideo);
         rabbidShow.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.rabbid));
 
-        rabbidShow.start();
+        rabbidShow.start(); //start video
     }
 }
